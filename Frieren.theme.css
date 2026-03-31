@@ -1,0 +1,213 @@
+/**
+ * @name Better Discord menu
+ * @author ClearVision Team/Daniel Pacheco
+ * @version 7.0.1
+ * @description Easily customizable discord menu design with text bubbles
+ * @source https://github.com/ClearVision/ClearVision-v7
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ */
+
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+
+/* SETTINGS */
+:root {
+  /* MAIN COLORS */
+  --main-color: #2780e6; 
+  --hover-color: #1e63b3; 
+  --success-color: #43b581; 
+  --danger-color: #982929; 
+
+  /* CUSTOM BUBBLE SETTINGS */
+  --bubble-color: #130153; /* bubble color */
+  --bubble-radius: 18px;    /* bubble roundness 18px */
+  --bubble-spacing: 1px;   /* space between each bubble 8px */
+
+  /* STATUS COLORS */
+  --online-color: #43b581; /* #43b581 */
+  --idle-color: #faa61a; /* #faa61a */
+  --dnd-color: #982929; /* #982929 */
+  --streaming-color: #593695; /* #593695 */
+  --offline-color: #808080; /* 808080 */
+
+  /* APP BACKGROUND */
+  --background-shading-percent: 100%; 
+  --background-image: url(https://cdn.discordapp.com/attachments/1451993705132331270/1461757344043241728/frieren.png?ex=69cc9d5c&is=69cb4bdc&hm=69144f0ba61edf2b62d9c0865621be986a572fc37b7f61b1d22f483d84097ea4&); 
+  --background-position: center; 
+  --background-size: cover; 
+  --background-attachment: fixed; 
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1)); 
+
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: var(--background-image); 
+  --user-popout-position: var(--background-position); 
+  --user-popout-size: var(--background-size); 
+  --user-popout-attachment: var(--background-attachment); 
+  --user-popout-filter: var(--background-filter); 
+
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: var(--background-image); 
+  --user-modal-position: var(--background-position); 
+  --user-modal-size: var(--background-size); 
+  --user-modal-attachment: var(--background-attachment); 
+  --user-modal-filter: var(--background-filter); 
+
+  /* HOME ICON */
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* https://clearvision.github.io/icons/discord.svg */
+  --home-size: cover; 
+
+  /* FONTS */
+  --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace; 
+
+  /* CHANNEL COLORS */
+  --channel-normal: var(--interactive-text-default); 
+  --channel-muted: var(--interactive-muted); 
+  --channel-hover: var(--interactive-text-hover); 
+  --channel-selected: var(--interactive-text-active); 
+  --channel-selected-bg: var(--main-color); 
+  --channel-unread: var(--main-color); 
+  --channel-unread-hover: var(--hover-color); 
+
+  /* ACCESSIBILITY */
+  --focus-color: var(--main-color); 
+}
+
+/* THEME SPECIFIC SHADING */
+/* LIGHT THEME */
+:is(.theme-light, .theme-dark .theme-light) {
+  --background-shading: rgba(252, 252, 252, 0.3);
+  --card-shading: rgba(252, 252, 252, 0.3);
+  --popout-shading: rgba(252, 252, 252, 0.7);
+  --modal-shading: rgba(252, 252, 252, 0.5);
+  --input-shading: rgba(0, 0, 0, 0.3);
+  --normal-text: #36363c;
+  --muted-text: #75757e;
+}
+
+/* ASH THEME */
+:is(.theme-dark, .theme-light .theme-dark) {
+  --background-shading: rgba(0, 0, 0, 0.4);
+  --card-shading: rgba(0, 0, 0, 0.2);
+  --popout-shading: rgba(0, 0, 0, 0.6);
+  --modal-shading: rgba(0, 0, 0, 0.4);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #d8d8db;
+  --muted-text: #aeaeb4;
+}
+
+/* DARK THEME */
+:is(.theme-darker, .theme-light .theme-darker) {
+  --background-shading: rgba(0, 0, 0, 0.6);
+  --card-shading: rgba(0, 0, 0, 0.3);
+  --popout-shading: rgba(0, 0, 0, 0.7);
+  --modal-shading: rgba(0, 0, 0, 0.5);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #fbfbfb;
+  --muted-text: #94949c;
+}
+
+/* ONYX THEME */
+:is(.theme-midnight, .theme-light .theme-midnight) {
+  --background-shading: rgba(0, 0, 0, 0.8);
+  --card-shading: rgba(0, 0, 0, 0.4);
+  --popout-shading: rgba(0, 0, 0, 0.8);
+  --modal-shading: rgba(0, 0, 0, 0.6);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #dcdcde;
+  --muted-text: #86868e;
+}
+
+/* ADD ADDITIONAL CSS BELOW HERE */
+
+/* 1. TEXT BUBBLES - UPDATED TO EXCLUDE REPLIES */
+.messageContent_c19a55:not(:empty):not([class*="repliedTextContent"]) {
+  background-color: var(--bubble-color) !important;
+  color: var(--normal-text) !important;
+  padding: 10px 16px !important;
+  border-radius: var(--bubble-radius) !important;
+  display: inline-block !important;
+  margin-top: var(--bubble-spacing) !important;
+  margin-left: 10px !important;
+  max-width: fit-content !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 2. IMAGE & MEDIA BUBBLES */
+.container_b55b00, 
+.attachmentContainer_b55b00,
+[class*="messageAttachment_"],
+[class*="attachmentContentContainer_"],
+[class*="imageWrapper_"] {
+  background-color: var(--bubble-color) !important;
+  padding: 10px !important;
+  border-radius: var(--bubble-radius) !important;
+  display: inline-block !important;
+  margin-top: var(--bubble-spacing) !important;
+  margin-left: 10px !important;
+  max-width: fit-content !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 3. LAYOUT & REPLY FIXES - UPDATED */
+.messageContent_c19a55:empty, .container_b55b00:empty {
+  display: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.contents_f9f2ca {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+/* This fixes the reply line cutting through the text */
+.repliedMessage_f9f2ca {
+  display: flex !important;
+  align-items: center !important;
+  margin-bottom: 4px !important;
+  background: none !important;
+}
+
+/* This ensures the small reply preview doesn't turn into a big bubble */
+.repliedTextContent_c19a55, 
+.repliedTextPreview_f9f2ca {
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  display: inline !important;
+}
+
+.header_f9f2ca {
+  display: flex !important;
+  align-items: center !important;
+  margin-bottom: 2px !important;
+}
+
+/* 4. LINK STYLING */
+.messageContent_c19a55 a {
+  color: var(--main-color) !important;
+  word-break: break-all !important;
+  text-decoration: none !important;
+}
+
+.messageContent_c19a55 a:hover {
+  text-decoration: underline !important;
+  filter: brightness(1.2);
+}
+
+/* 5. MEDIA CORNERS & CLEANUP */
+[class*="imageWrapper_"] img, 
+[class*="lazyImg_"],
+.imageContent_ac7831 {
+  border-radius: calc(var(--bubble-radius) - 6px) !important;
+  border: none !important;
+}
+
+.messageAttachment_c32947 {
+  background-color: transparent !important;
+}
