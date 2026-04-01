@@ -15,20 +15,20 @@
 /* SETTINGS */
 :root {
   /* MAIN COLORS */
-  --main-color: #33c7e8; 
-  --hover-color: #32edf0; 
+  --main-color: #34c2ed; 
+  --hover-color: #1e5f73; 
   --success-color: #43b581; 
   --danger-color: #982929; 
 
   /* CUSTOM BUBBLE SETTINGS */
-  --bubble-color: #33c7e8; /* bubble color */
+  --bubble-color: #4894ab; /* bubble color */
   --bubble-radius: 18px;    /* bubble roundness 18px */
   --bubble-spacing: 1px;   /* space between each bubble 8px */
 
   /* STATUS COLORS */
-  --online-color: #43b581; /* #43b581 */
-  --idle-color: #faa61a; /* #faa61a */
-  --dnd-color: #982929; /* #982929 */
+  --online-color: #1ceb76; /* #43b581 */
+  --idle-color: #f7dc6d; /* #faa61a */
+  --dnd-color: #f55656; /* #982929 */
   --streaming-color: #593695; /* #593695 */
   --offline-color: #808080; /* 808080 */
 
@@ -55,7 +55,7 @@
   --user-modal-filter: var(--background-filter); 
 
   /* HOME ICON */
-  --home-icon: url(https://monkeyman842.github.io/Newscape.icon.jpg); /* https://clearvision.github.io/icons/discord.svg */
+  --home-icon: url(https://monkeyman842.github.io/Newscape.ico); /* https://clearvision.github.io/icons/discord.svg */
   --home-size: cover; 
 
   /* FONTS */
