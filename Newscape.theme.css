@@ -15,7 +15,7 @@
 /* SETTINGS */
 :root {
   /* MAIN COLORS */
-  --main-color: #34c2ed; 
+  --main-color: #000000; /*#34c2ed*/
   --hover-color: #1e5f73; 
   --success-color: #43b581; 
   --danger-color: #982929; 
