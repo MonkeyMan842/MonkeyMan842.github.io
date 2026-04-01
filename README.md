@@ -8,3 +8,6 @@ https://monkeyman842.github.io/Frieren.theme.css
 
 brighter gold MDUD style
 https://monkeyman842.github.io/MDUD.theme.css
+
+Newscape custom style
+https://monkeyman842.github.io/Newscape.them.css
