@@ -1,10 +1,10 @@
 <textarea id="theme1" style="display:none;">https://monkeyman842.github.io/themes/MDUD.theme.css</textarea>
 <button onclick="copyToClipboard('theme1')">Copy MDUD Theme</button>
 
-<textarea id="theme2" style="display:none;">https.//monkeyman842.github.io/themes/Frieren.theme.css</textarea>
+<textarea id="theme2" style="display:none;">https://monkeyman842.github.io/themes/Frieren.theme.css</textarea>
 <button onclick="copyToClipboard('theme2')">Copy Frieren Theme</button>
 
-<textarea id="theme3" style="display:none;">https.//monkeyman842.github.io/themes/Newscape.theme.css</textarea>
+<textarea id="theme3" style="display:none;">https://monkeyman842.github.io/themes/Newscape.theme.css</textarea>
 <button onclick="copyToClipboard('theme3')">Copy Newscape's custom Theme</button>
 
 
