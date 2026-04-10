@@ -19,8 +19,6 @@ uses different shades of blue with a fan made image as the background tinted
 <br>
 <br>
 <br>
-<br>
-<br>
 - - - - - - - -
 # Friends Themes
 *All themes I made for friends*
