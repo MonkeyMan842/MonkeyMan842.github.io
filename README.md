@@ -18,6 +18,9 @@ uses different shades of blue with a fan made image as the background tinted
 <button onclick="copyToClipboard('theme2')">Copy Frieren Theme</button>
 <br>
 <br>
+<br>
+<br>
+<br>
 - - - - - - - -
 # Friends Themes
 *All themes I made for friends*
