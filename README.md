@@ -9,6 +9,11 @@ uses Yellow and Gold colors with an fan made image as the background slightly da
 <textarea id="theme1" style="display:none;">https://monkeyman842.github.io/themes/MDUD.theme.css</textarea>
 <button onclick="copyToClipboard('theme1')">Copy MDUD Theme</button>
 
+### Frieren
+this is a theme based on the anime Frieren: Beyond Journey's End
+<br>
+uses different shades of blue with a fan made image as the background darkend
+![Theme Preview](https://monkeyman842.github.io/ex-images/Frieren-ex.png)
 <textarea id="theme2" style="display:none;">https://monkeyman842.github.io/themes/Frieren.theme.css</textarea>
 <button onclick="copyToClipboard('theme2')">Copy Frieren Theme</button>
 
