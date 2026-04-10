@@ -2,6 +2,7 @@
 *All themes based on animes that I enjoy*
 
 ### My Dress-Up Darling 
+![Theme Preview](https://monkeyman842.github.io/ex-images/MDUD-ex.png)
 this is a theme based on the anime My Dress-Up Darling
 <br>
 uses Yellow and Gold colors with an fan made image as the background slightly darkend
