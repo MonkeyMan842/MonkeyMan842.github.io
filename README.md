@@ -2,7 +2,6 @@
 *All themes based on animes that I enjoy*
 <br>
 <br>
-<br>
 ### My Dress-Up Darling 
 this is a theme based on the anime My Dress-Up Darling
 <br>
