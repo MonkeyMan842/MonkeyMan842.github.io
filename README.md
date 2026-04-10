@@ -16,7 +16,9 @@ uses different shades of blue with a fan made image as the background tinted
 ![Theme Preview](https://monkeyman842.github.io/ex-images/Frieren-ex.png)
 <textarea id="theme2" style="display:none;">https://monkeyman842.github.io/themes/Frieren.theme.css</textarea>
 <button onclick="copyToClipboard('theme2')">Copy Frieren Theme</button>
-
+<br>
+<br>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Friends Themes
 *All themes I made for friends*
 
