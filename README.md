@@ -1,7 +1,7 @@
 # Anime Themes
 *All themes based on animes that I enjoy*
 
-## My Dress-Up Darling 
+### My Dress-Up Darling 
 this is a theme based on the anime My Dress-Up Darling
 <br>
 uses Yellow and Gold colors with an fan made image as the background slightly darkend
