@@ -45,4 +45,4 @@ uses light blue and cyan with a Windows XP type of background slightly tinted
 
 # test zone
 
-<button onclick="window.location.href='vencord-setup.md'">Vencord setup</button>
+<button onclick="window.location.href='vencord-setup.html'">Vencord setup</button>
