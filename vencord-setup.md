@@ -1,5 +1,1 @@
----
-layout: default
----
-
-this is a test
+This page will go through the steps on how to use discord themes through vencord
