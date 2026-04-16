@@ -43,6 +43,6 @@ uses light blue and cyan with a Windows XP type of background slightly tinted
 </script>
 
 
-# test zone
+## Don't know how or where to download vencord and use its Themes click the link below
 
 <button onclick="window.location.href='vencord-setup.html'">Vencord setup</button>
