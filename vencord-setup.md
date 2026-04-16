@@ -3,11 +3,10 @@ this site is still being made sorry for the inconvenience
 <br>
 This page will go through the steps on how to use discord themes through vencord.
 ## Warning: I am not responsable for any malware being installed in the event that it happens
-<br>
 <button onclick="window.location.href='https://vencord.dev/download/'">Vencord Official Site</button>
 # Windows
 Downlaod VencordInstaller.exe once installed open the app
-![Windows setup image-1](https://monkeyman842.github.io/Vencord-tut-images/windows-1.png)
+![Windows setup image-1](https://monkeyman842.github.io/Vencord-tut-images/windows-1.png)0
 select file directory
 - stable(recommended)
 - Custom install location(not recommended)
