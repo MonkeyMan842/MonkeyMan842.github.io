@@ -5,3 +5,9 @@ plugins:
 title: All My Discord Themes
 tagline: Discord Themes
 description: I hope you find the themes your looking for
+
+defaults:
+  - scope:
+      path: "" # empty string means all files in the project
+    values:
+      layout: "default"
