@@ -41,3 +41,8 @@ uses light blue and cyan with a Windows XP type of background slightly tinted
     });
   }
 </script>
+
+
+# test zone
+
+<button onclick="window.location.href='https://google.com'">Visit Website</button>
