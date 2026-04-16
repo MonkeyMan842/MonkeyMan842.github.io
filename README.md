@@ -1,6 +1,3 @@
----
----
-
 # Anime Themes
 *All themes based on animes that I enjoy*
 
