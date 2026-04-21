@@ -39,6 +39,7 @@ Go to Vencord website and copy terminal command either by highlighting and hitti
 ![Linux setup image-2](https://monkeyman842.github.io/Vencord-tut-images/Linux2.png)
 <br>
 Open the terminal from your search bar or by hitting ctrl + alt + t
+<br>
 ![Linux setup image-3](https://monkeyman842.github.io/Vencord-tut-images/Linux3.png)
 <br>
 
