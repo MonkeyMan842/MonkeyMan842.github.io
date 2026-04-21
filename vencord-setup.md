@@ -59,3 +59,4 @@ if you had Vencord installed already but it broke due to an update still hit ent
 the recomended thing to do is hit enter on "Stable" but if you wish to set a custom location hit enter when hovering "Custom Location"
 ![Linux setup image-6](https://monkeyman842.github.io/Vencord-tut-images/Linux6.png)
 <br>
+then reboot Discord
