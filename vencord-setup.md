@@ -31,3 +31,7 @@ if it does not update restart discord
 <br>
 
 # Linux
+If discord is running ensure that it is fully closed
+![Linux setup image-1](https://monkeyman842.github.io/Vencord-tut-images/Linux1.png)
+<br>
+Go to Vencord website and copy terminal command
