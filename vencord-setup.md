@@ -1,4 +1,4 @@
-<button onclick="window.location.href='README.html">HOME</button>
+<button onclick="window.location.href='./'">HOME</button>
 
 This page will go through the steps on how to use discord themes through vencord.
 ## Warning: I am not responsable for any malware being installed in the event that it happens
