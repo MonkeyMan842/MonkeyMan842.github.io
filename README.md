@@ -8,6 +8,8 @@ uses Yellow and Gold colors with an fan made image as the background slightly ti
 ![Theme Preview](https://monkeyman842.github.io/ex-images/MDUD-ex.png)
 <textarea id="theme1" style="display:none;">https://monkeyman842.github.io/themes/MDUD.theme.css</textarea>
 <button onclick="copyToClipboard('theme1')">Copy MDUD Theme</button>
+<textarea id="theme1-Downlaod" style="display:none;">https://raw.githubusercontent.com/MonkeyMan842/MonkeyMan842.github.io/refs/heads/main/themes/MDUD.theme.css</textarea>
+<button onclick="download('theme1-Download', 'MDUD.theme.css')">Download .cssfile</button>
 
 ### Frieren
 this is a theme based on the anime Frieren: Beyond Journey's End
@@ -34,11 +36,22 @@ uses light blue and cyan with a Windows XP type of background slightly tinted
 
 
 <script>
+  //copy button fuction
   function copyToClipboard(id) {
     var text = document.getElementById(id).value;
     navigator.clipboard.writeText(text).then(function() {
       alert("Link copied!");
     });
+  }
+  //download button fuction
+  function download(id, fileName) {
+    var fileUrl = document.getElementById(id).value;
+    var link = document.createElement('a');
+    link.href = fileUrl;
+    link.setAttribute('download', fileName); 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 </script>
 
