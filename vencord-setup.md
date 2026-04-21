@@ -38,3 +38,7 @@ If discord is running ensure that it is fully closed
 Go to Vencord website and copy terminal command either by highlighting and hitting ctrl + c or by clicking the copy button
 ![Linux setup image-2](https://monkeyman842.github.io/Vencord-tut-images/Linux2.png)
 <br>
+Open the terminal from your search bar or by hitting ctrl + alt + t
+![Linux setup image-3](https://monkeyman842.github.io/Vencord-tut-images/Linux3.png)
+<br>
+
