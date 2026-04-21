@@ -51,6 +51,11 @@ hit enter and type in your password before hitting enter a second time
 <br>
 Press enter when hovering "Install Vencord"
 <br>
+use the arrow keys to navigate the menu
+<br>
 if you had Vencord installed already but it broke due to an update still hit enter on "Install Vencord"
 ![Linux setup image-5](https://monkeyman842.github.io/Vencord-tut-images/Linux5.png)
+<br>
+the recomended thing to do is hit enter on "Stable" but if you wish to set a custom location hit enter when hovering "Custom Location"
+![Linux setup image-6](https://monkeyman842.github.io/Vencord-tut-images/Linux6.png)
 <br>
