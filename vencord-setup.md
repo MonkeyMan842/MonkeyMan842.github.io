@@ -42,4 +42,10 @@ Open the terminal from your search bar or by hitting ctrl + alt + t
 <br>
 ![Linux setup image-3](https://monkeyman842.github.io/Vencord-tut-images/Linux3.png)
 <br>
-
+Paste copied command by using ctrl + shift + v
+<br>
+using ctrl + v will not work 
+<br> 
+hit enter and type in your password before hitting enter a second time
+![Linux setup image-4](https://monkeyman842.github.io/Vencord-tut-images/Linux4.png)
+<br>
