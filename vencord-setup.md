@@ -49,3 +49,8 @@ using ctrl + v will not work
 hit enter and type in your password before hitting enter a second time
 ![Linux setup image-4](https://monkeyman842.github.io/Vencord-tut-images/Linux4.png)
 <br>
+Press enter when hovering "Install Vencord"
+<br>
+if you had Vencord installed already but it broke due to an update still hit enter on "Install Vencord"
+![Linux setup image-5](https://monkeyman842.github.io/Vencord-tut-images/Linux5.png)
+<br>
