@@ -43,17 +43,39 @@ uses light blue and cyan with a Windows XP type of background slightly tinted
       alert("Link copied!");
     });
   }
+  
   //download button fuction
-  function download(id, fileName) {
-    var fileUrl = document.getElementById(id).value;
-    var link = document.createElement('a');
-    link.href = fileUrl;
-    link.setAttribute('download', fileName); 
+  async function download(id, fileName) {
+  const fileUrl = document.getElementById(id).value;
+  
+  try {
+    // 1. Fetch the data from GitHub
+    const response = await fetch(fileUrl);
+    const blob = await response.blob();
+    
+    // 2. Create a local "Object URL" for that data
+    const url = window.URL.createObjectURL(blob);
+    
+    // 3. Create the ghost link using the local URL
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', fileName);
     document.body.appendChild(link);
+    
+    // 4. Trigger the save-to-disk
     link.click();
+    
+    // 5. Cleanup
     document.body.removeChild(link);
-    alert("Download Started!");
+    window.URL.revokeObjectURL(url);
+    
+    alert("Download started!");
+  } catch (error) {
+    console.error("Download failed:", error);
+    // If something goes wrong, it will at least open the raw file
+    window.open(fileUrl, '_blank');
   }
+}
 </script>
 
 
