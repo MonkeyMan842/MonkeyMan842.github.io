@@ -1,4 +1,4 @@
-### Don't know how or where to download vencord and use its Themes click the button below
+### Don't know how or where to download vencord click the button below
 
 <button onclick="window.location.href='vencord-setup.html'">Vencord setup</button>
 <br>
