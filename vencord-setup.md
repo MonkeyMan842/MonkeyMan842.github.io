@@ -1,6 +1,3 @@
-this site is still being made sorry for the inconvenience
-<br>
-<br>
 This page will go through the steps on how to use discord themes through vencord.
 ## Warning: I am not responsable for any malware being installed in the event that it happens
 <button onclick="window.open('https://vencord.dev/download/', '_blank')">Vencord Official Site</button>
