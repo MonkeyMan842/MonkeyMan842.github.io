@@ -34,7 +34,7 @@ uses light blue and cyan with a Windows XP type of background slightly tinted
 ![Theme Preview](https://monkeyman842.github.io/ex-images/Newscape-ex.png)
 <textarea id="Newscape-copy" style="display:none;">https://monkeyman842.github.io/themes/Newscape.theme.css</textarea>
 <button onclick="copyToClipboard('Newscape-copy')">Copy Newscape's custom Theme</button>
-<textarea id="Newscape-download" style="displasy:none;">https://raw.githubusercontent.com/MonkeyMan842/MonkeyMan842.github.io/refs/heads/main/themes/Newscape.theme.css</textarea>
+<textarea id="Newscape-download" style="display:none;">https://raw.githubusercontent.com/MonkeyMan842/MonkeyMan842.github.io/refs/heads/main/themes/Newscape.theme.css</textarea>
 <button onclick="download('Newscape-download', 'Newscape.theme.css')">Download .css file</button>
 
 
