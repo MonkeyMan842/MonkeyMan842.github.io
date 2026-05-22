@@ -1,6 +1,10 @@
 ### Don't know how or where to download vencord click the button below
 
-<button onclick="window.location.href='vencord-setup.html'">Vencord setup</button>
+<button onclick="window.location.href='vencord-setup.html'">Vencord Setup</button>
+<br>
+### Don't know how to import local or how to use online themes click the button below
+
+<button onclick="window.loaction.href='add-themes.html'">Adding Themes</button>
 <br>
 <br>
 # Anime Themes
