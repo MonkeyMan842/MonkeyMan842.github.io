@@ -1,6 +1,6 @@
 <button onclick="window.location.href='./'">HOME</button>
 
-This page will go through the steps on how to use discord themes through vencord.
+This page will go through the steps on how to install vencord on both windows and linux
 ## Warning: I am not responsable for any malware being installed in the event that it happens
 <button onclick="window.open('https://vencord.dev/download/', '_blank')">Vencord Official Site</button>
 # Windows
