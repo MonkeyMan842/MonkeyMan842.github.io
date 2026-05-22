@@ -4,7 +4,7 @@
 <br>
 ### Don't know how to import local or how to use online themes click the button below
 
-<button onclick="window.location.href='add-themes'">test</button>
+<button onclick="window.location.href='add-themes'">Adding Themes</button>
 <br>
 <br>
 # Anime Themes
