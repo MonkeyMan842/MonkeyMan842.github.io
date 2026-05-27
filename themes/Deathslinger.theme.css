@@ -16,6 +16,7 @@
 :root {
   /* MAIN COLORS */
   --main-color: #80521e; 
+  --link-color: #d47e1c;
   --hover-color: #ac7435; 
   --success-color: #43b581; 
   --danger-color: #982929; 
@@ -190,7 +191,7 @@
 
 /* 4. LINK STYLING */
 .messageContent_c19a55 a {
-  color: var(--main-color) !important;
+  color: var(--link-color) !important;
   word-break: break-all !important;
   text-decoration: none !important;
 }
