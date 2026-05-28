@@ -8,7 +8,7 @@
 <br>
 <br>
 # game themes
-*All themes based on games that I enjoy
+*All themes based on games that I enjoy*
 
 ## Dead by Daylight (DBD)
 ### DeathSlinger
