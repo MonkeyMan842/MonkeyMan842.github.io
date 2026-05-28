@@ -5,7 +5,7 @@ This page will go through the steps on how to import local themes or use online 
 
 # Finding the menu
 Navigate to the theme page in your discord settings under the heading "vencord"
-![Theme image 1](https://monkeyman842.github.io/Themes-tut-images/Themes-tut-image.png)
+![Theme image 1](https://monkeyman842.github.io/Themes-tut-images/Theme-tut-image.png)
 <br>
 <br>
 # Online Themes
