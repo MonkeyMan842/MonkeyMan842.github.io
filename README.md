@@ -7,6 +7,22 @@
 <button onclick="window.location.href='add-themes'">Adding Themes</button>
 <br>
 <br>
+# game themes
+*All themes based on games that I enjoy
+
+## Dead by Daylight (DBD)
+### DeathSlinger
+This is a theme based on the character Deathslinger from DBD
+<br>
+uses a light brown as the as base image with a custom home button and a slightly tinted background
+![Theme Preview](https://monkeyman842.github.io/ex-images/Deathslinger-ex.png)
+<textarea id="Deathslinger-copy" style="display:none;">https://monkeyman842.github.io/themes/Deathslinger.theme.css</textarea>
+<button onclick="copyToClipboard('Deathslinger-copy')">Copy Deathslinger Theme</button>
+<textarea id="Deathslinger-download" style="display:none;">https://raw.githubusercontent.com/MonkeyMan842/MonkeyMan842.github.io/refs/heads/main/themes/Deathslinger.theme.css</textarea>
+<button onclick="download('Deathslinger-download', 'Deathslinger.theme.css')">Download .css file</button>
+- - - - - - - 
+<br>
+<br>
 # Anime Themes
 *All themes based on animes that I enjoy*
 
