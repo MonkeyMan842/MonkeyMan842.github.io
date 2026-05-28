@@ -1,5 +1,4 @@
 <title>Vencord Themes</title>
-<link rel="icon" type="image/png" href="https://monkeyman842.github.io/ex-images/Deathslinger-ex.png">
 ### Don't know how or where to download vencord click the button below
 
 <button onclick="window.location.href='vencord-setup.html'">Vencord Setup</button>
