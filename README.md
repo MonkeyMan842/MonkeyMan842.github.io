@@ -21,7 +21,8 @@ uses a light blue based color to match the Mimics eyes with a photo of the Mimic
 <button onclick="copyToClipboard('Deathslinger-copy')">Copy SOTM David Theme</button>
 <textarea id="Deathslinger-download" style="display:none;">https://raw.githubusercontent.com/MonkeyMan842/MonkeyMan842.github.io/refs/heads/main/themes/SOTMDavid.theme.css</textarea>
 <button onclick="download('Deathslinger-download', 'Deathslinger.theme.css')">Download .css file</button>
-
+<br>
+<br>
 ## Dead by Daylight (DBD)
 ### DeathSlinger
 This is a theme based on the character Deathslinger from DBD
