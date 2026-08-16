@@ -16,7 +16,7 @@
 This is a theme based of the character Mimic in David form from SOTM
 <br>
 uses a light blue based color to match the Mimics eyes with a photo of the Mimic sitting on a bed holding the white tiger
-![Theme Preview](https://monkeyman842.github.io/ex-images/SOTMDavid-ex.png)|
+![Theme Preview](https://monkeyman842.github.io/ex-images/SOTMDavid-ex.png)
 <textarea id="Deathslinger-copy" style="display:none;">https://monkeyman842.github.io/themes/SOTMDavid.theme.css</textarea>
 <button onclick="copyToClipboard('Deathslinger-copy')">Copy SOTM David Theme</button>
 <textarea id="Deathslinger-download" style="display:none;">https://raw.githubusercontent.com/MonkeyMan842/MonkeyMan842.github.io/refs/heads/main/themes/SOTMDavid.theme.css</textarea>
