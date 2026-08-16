@@ -8,14 +8,25 @@
 <button onclick="window.location.href='add-themes'">Adding Themes</button>
 <br>
 <br>
-# game themes
+# Game Themes
 *All themes based on games that I enjoy*
+
+## Secret Of The Mimic (SOTM)
+### David Mimic
+This is a theme based of the character Mimic in David form from SOTM
+<br>
+uses a light blue based color to match the Mimics eyes with a photo of the Mimic sitting on a bed holding the white tiger
+![Theme Preview](https://monkeyman842.github.io/ex-images/SOTMDavid-ex.png)|
+<textarea id="Deathslinger-copy" style="display:none;">https://monkeyman842.github.io/themes/SOTMDavid.theme.css</textarea>
+<button onclick="copyToClipboard('Deathslinger-copy')">Copy SOTM David Theme</button>
+<textarea id="Deathslinger-download" style="display:none;">https://raw.githubusercontent.com/MonkeyMan842/MonkeyMan842.github.io/refs/heads/main/themes/SOTMDavid.theme.css</textarea>
+<button onclick="download('Deathslinger-download', 'Deathslinger.theme.css')">Download .css file</button>
 
 ## Dead by Daylight (DBD)
 ### DeathSlinger
 This is a theme based on the character Deathslinger from DBD
 <br>
-uses a light brown as the as base image with a custom home button and a slightly tinted backgll My Discord Themesround
+uses a light brown color with a photo of Deathslinger reeling someone in with his gun
 ![Theme Preview](https://monkeyman842.github.io/ex-images/Deathslinger-ex.png)
 <textarea id="Deathslinger-copy" style="display:none;">https://monkeyman842.github.io/themes/Deathslinger.theme.css</textarea>
 <button onclick="copyToClipboard('Deathslinger-copy')">Copy Deathslinger Theme</button>
